@@ -1,0 +1,301 @@
+html, body{
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark{
+     background-color: rgb(187, 0, 93);
+    font-size: 14px;
+}
+
+.navbar-collapse{
+    background-color: rgb(187, 0, 93);
+}
+
+.nav-item{
+    margin: 0.5vw;
+    
+}
+
+.aboutusrow{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#jumbina {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#logo{
+  position: absolute;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    z-index: 9;
+    
+}
+
+#carousel{
+    position: relative;
+    margin-top: 35px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#carousel2.carousel .carousel-inner img{
+    height: 400px;
+    width:600px;
+}
+
+#paragraph{
+    position: relative;
+    padding:20px 50px 30px 50px;
+}
+
+
+.row-header{
+    margin:0px auto;
+
+}
+
+.row-content {
+    margin:30px auto;
+
+}
+
+.cont-serv a{
+    text-decoration: none;
+    color: black;
+}
+
+.serv{
+    padding: 5px;
+    transition-duration: 0.2s;
+    border:1px solid transparent;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.serv p{
+    padding: 15px;
+}
+
+.serv:hover{
+    transform: scale(1.05,1.05);
+    transition-duration: 0.2s;
+    background-color: lightgray;
+    
+}
+
+.footer{
+    background-color: #c05073;
+    color:white;
+    margin-top:100px;
+    padding: 20px 0px 0px 0px;
+}
+
+.linklist li{
+    padding-top: 5px;
+}
+
+
+.linklist a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.3s;
+    padding:4px;
+    border-radius:5px;
+}
+.linklist a:hover{
+    background-color:black;
+    transition-duration: 0.3s;
+    
+}
+
+
+#copyright{
+    position: relative;
+    padding: 10px 0px 10px 0px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+#copylogo{
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+
+.jumbotron-fluid {
+    background: rgb(187, 0, 93) ;
+    padding: 0px;
+    color:floralwhite;
+    padding-bottom:5px;
+}
+
+.jumbotron {
+    background: rgb(187, 0, 93) ;
+    color:floralwhite;
+}
+
+.breadcrumb{
+    background: rgb(187, 0, 93);
+}
+
+.breadcrumb li.active{
+    color:white;
+}
+
+.breadcrumb li+li:before{
+    color:white!important;
+}
+
+.breadcrumb li a{
+    text-decoration: none;
+    color:rgb(221,128,174)!important;
+}
+
+.breadcrumb li a:hover{
+    color: white!important;
+}
+
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:white;
+    padding: 10px;
+}
+
+address a{
+    color:white;
+}
+
+address a:hover{
+    color: white;
+}
+
+.adress{
+    background-color:rgb(187, 0, 93);
+    border-radius: 7px;
+}
+
+.adress a{
+    color: white;
+}
+
+.btn-sociales{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+#contact{
+    margin-bottom: 60px;
+}
+
+.contactbtn{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.img-thumbnail{
+    height: 150px;
+    width: 200px;
+}
+
+ @media(max-width:1030px) {
+     
+     #logo{
+  position: absolute;
+         height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    z-index: 9;
+    
+}
+     
+     .serv p{
+    padding: 0px;
+}
+     
+     .btn-sociales{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+     
+     
+}
+
+ @media(max-width:767px) {
+     
+     #copylogo{
+    position: relative;
+    bottom:0;
+    right: 0;
+}
+     
+     #carousel2.carousel .carousel-inner img{
+    height: 170px;
+    width:240px;
+}
+
+     .typedheader{
+         font-size: 12px;
+         
+     }
+     .serv{
+         margin: 10px 0px 0px 0px;
+     }
+     
+     .serv p{
+         font-size: 13px;
+    padding: 10px;
+
+}
+     
+     .btn-sociales{
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+     
+     .btn-social-icon{
+         /*transform: scale(0.5,0.5);*/
+     }
+     
+     address{
+    font-size:10px;
+    margin:0px;
+    color:white;
+    padding: 10px;
+}
+     
+     .img-thumbnail{
+    height: 100px;
+    width: 150px;
+}
+     
+     
+}
